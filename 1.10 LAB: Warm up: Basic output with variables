@@ -1,0 +1,25 @@
+user_num = int(input('Enter integer:\n'))
+
+# Type your code here
+print("You entered: " + str(user_num))
+num_squared = user_num * user_num
+print(str(user_num) + " squared is " + str(num_squared))
+num_cubed = user_num * user_num * user_num
+print("And " + str(user_num) + " cubed is " + str(num_cubed) + " !!")
+
+user_num2 = int(input('Enter another integer:\n'))
+sum = user_num + user_num2
+print(str(user_num) + " + " + str(user_num2) + " is " + str(sum))
+product = user_num * user_num2
+print(str(user_num) + " * " + str(user_num2) + " is " + str(product))
+
+
+>>> Enter integer:
+>>> '''user_num'''
+>>> You entered: '''user_num'''
+>>> 4 squared is '''num_squared'''
+>>> And '''user_num''' cubed is '''num_cubed''' !!
+>>> Enter another integer:
+>>> '''user_num2'''
+>>> '''user_num''' + '''user_num2''' is '''sum'''
+>>> '''user_num''' * '''user_num2''' is '''product'''
