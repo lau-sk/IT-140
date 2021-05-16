@@ -1,0 +1,6 @@
+
+gallons_paint = 0.0
+wall_area = float(input())
+
+gallons_paint = wall_area / 350.0  # Calculates of paint are needed to cover walls
+print(gallons_paint)
