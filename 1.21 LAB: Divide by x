@@ -1,0 +1,16 @@
+import sys
+
+user_input = int(input())
+x = int(input())
+
+#divide by x the first time
+user_input = user_input / x
+print(int(user_input), end=" ")
+
+#divide by x the second time
+user_input = user_input / x
+print(int(user_input), end=" ")
+
+#divide by x the third time
+user_input = user_input / x
+print(int(user_input))
