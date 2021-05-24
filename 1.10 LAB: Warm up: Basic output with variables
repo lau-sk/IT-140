@@ -12,4 +12,3 @@ sum = user_num + user_num2
 print(str(user_num) + " + " + str(user_num2) + " is " + str(sum))
 product = user_num * user_num2
 print(str(user_num) + " * " + str(user_num2) + " is " + str(product))
-
