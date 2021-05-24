@@ -1,0 +1,13 @@
+user_int = int(input('Enter integer (32 - 126):\n'))
+user_float = float(input('Enter float:'))
+user_char = input('\nEnter character:')
+user_str = input('\nEnter string:\n')
+
+# FIXME (1): Finish reading other items into variables, then output the four values on a single line separated by a space
+print(str(user_int) + " " + str(user_float) + " " + str(user_char) + " " + user_str)
+
+# FIXME (2): Output the four values in reverse
+print(user_str + " " + str(user_char) + " " + str(user_float) + " " + str(user_int))
+
+# FIXME (3): Convert the integer to a characer, and output that character
+print(str(user_int)  + " converted to a character is " + chr(user_int))
