@@ -1,0 +1,3 @@
+air_temperature = float(input())
+
+print("{:.1f}".format(air_temperature) + "C")
