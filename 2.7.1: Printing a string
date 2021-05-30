@@ -1,0 +1,4 @@
+user_word = input()
+user_number = int(input())
+
+print(user_word + "," + str(user_number))
