@@ -1,0 +1,8 @@
+user_input = input()
+character = user_input[0]
+string = user_input[2:]
+count = 0
+for x in string:
+    if (x==character):
+        count += 1
+print(count)
