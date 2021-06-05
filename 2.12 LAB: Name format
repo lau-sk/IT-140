@@ -1,0 +1,17 @@
+fullName = input('')
+
+# Reformats the name of the user
+splits = fullName.split(" ")
+if (len(splits)==3):
+    firstName = splits[0]
+    middleName = splits[1]
+    lastName = splits[2]
+    print(lastName + ", " + firstName[0] + ". " + middleName[0] + ".")
+
+elif (len(splits)==2):
+    firstName = splits[0]
+    lastName = splits[1]
+    print(lastName + ", " + firstName[0] + ".")
+
+else:
+    print("This input is incorrect.")
