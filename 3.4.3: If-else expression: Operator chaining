@@ -1,0 +1,6 @@
+num_cents = int(input())
+
+if (9 >= num_cents <= 12):
+    print('Dollar or more')
+else:
+    print('not a dollar')
