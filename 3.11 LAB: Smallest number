@@ -1,0 +1,10 @@
+#User's input
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+
+#Program finds the smallest number
+smallest_num = min(num1, num2, num3)
+
+#Program prints the smallest number
+print(smallest_num)
