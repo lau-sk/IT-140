@@ -1,0 +1,46 @@
+#User input
+value = int(input())
+
+if value <= 0:
+    print("No change")
+
+#Calculation
+dollar = int(value/100)
+value = value % 100
+
+quarter = int(value/25)
+value = value % 25
+
+dime = int(value/10)
+value = value % 10
+
+nickel = int(value/5)
+value = value % 5
+
+penny = int(value)
+
+#Find the dollar value
+if dollar == 1:
+    print("1 Dollar")
+elif dollar > 1:
+    print(dollar, "Dollars")
+    
+if quarter == 1:
+    print("1 Quarter")
+elif quarter > 1:
+    print(quarter, "Quarters")
+    
+if dime == 1:
+    print("1 Dime")
+elif dime > 1:
+    print(dime, "Dimes")
+    
+if nickel == 1:
+    print("1 Nickel")
+elif nickel > 1:
+    print(nickel, "Nickels")
+
+if penny == 1:
+    print("1 Penny")
+elif penny > 1:
+    print(penny, "Pennies")
