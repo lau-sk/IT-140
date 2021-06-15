@@ -1,13 +1,10 @@
-
 avg_sales = 0
 
+# User's input
 num_sales1 = int(input())
 num_sales2 = int(input())
 num_sales3 = int(input())
 
-avg_sales = (num_sales1 + num_sales2 + num_sales3) / 3  # Calculates the average
-
+# Calculates the average sales and prints the average sale to two dp
+avg_sales = (num_sales1 + num_sales2 + num_sales3) / 3
 print('Average sales: {:.2f}'.format(avg_sales))
-
-
->>> # Outputs the avg_sales rounded to two decimal points
