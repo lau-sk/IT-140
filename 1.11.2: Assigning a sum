@@ -1,11 +1,11 @@
-
 total_coins = 0
 
+# User's input
 nickel_count = int(input())
 dime_count = int(input())
 
-total_coins = nickel_count + dime_count  # Calculates the sum of two coins
+# Calculates the sum of two coins
+total_coins = nickel_count + dime_count 
 
 print(total_coins)
 
->>> # Outputs the total coin
