@@ -3,6 +3,5 @@ cell_count = int(input())
 
 cell_count = cell_count * 10
 
-print(cell_count)  # Prints the last definition of cell_count
-
-
+# Prints the last definition of cell_count
+print(cell_count)
