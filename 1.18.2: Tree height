@@ -1,8 +1,9 @@
-
+# import module
 import math
 
 tree_height = 0.0
 
+# User's input
 angle_elev  = float(input())
 shadow_len  = float(input())
 
@@ -10,5 +11,3 @@ tree_height = math.tan(angle_elev) * shadow_len  # Calculates the height of the 
 
 print('Tree height:', tree_height)
 
-
->>> Tree height '''tree_height'''
