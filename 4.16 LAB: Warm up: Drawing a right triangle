@@ -1,0 +1,8 @@
+triangle_char = input('Enter a character:\n')
+triangle_height = int(input('Enter triangle height:\n'))
+print('')
+
+for h in range(1, triangle_height + 1):
+    for c in range(1, h + 1):
+        print(triangle_char, end = ' ')
+    print()
