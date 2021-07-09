@@ -1,0 +1,7 @@
+def main():
+    fields=input().split(' ')
+    while fields[0].lower()!='quit':
+        print('Eating {} {} a day keeps the doctor away.'.format(fields[1],fields[0]))
+        fields = input().split(' ')
+
+main()
