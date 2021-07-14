@@ -1,0 +1,5 @@
+def print_shape():
+    for x in range(3):
+        print('***')
+        
+print_shape()
