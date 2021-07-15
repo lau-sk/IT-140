@@ -1,0 +1,10 @@
+def print_popcorn_time(user_ounces):
+    if user_ounces < 3:
+        print("Too small")
+    elif user_ounces > 10:
+        print("Too large")
+    else:
+        print(str(user_ounces * 6) + " seconds")
+
+user_ounces = int(input())
+print_popcorn_time(user_ounces)
