@@ -1,0 +1,12 @@
+def shampoo_instructions(user_cycles):
+    if user_cycles < 1:
+        print("Too few.")
+    elif user_cycles > 4:
+        print("Too many.")
+    else:
+        for i in range(1, user_cycles + 1):
+            print(i,":","Lather and rinse.")
+        print("Done.")
+
+user_cycles = int(input())
+shampoo_instructions(user_cycles)
