@@ -1,0 +1,10 @@
+num_guesses = int(input())
+user_guesses = []
+
+i = 0
+while i < num_guesses:
+    num = int(input())
+    user_guesses.append(num)
+    i += 1
+
+print('user_guesses:', user_guesses)
