@@ -1,0 +1,11 @@
+user_input = input()
+test_grades = list(map(int, user_input.split())) # test_grades is an integer list of test scores
+
+sum_extra = -999 # Initialize 0 before your loop
+
+sum_extra = 0
+for x in test_grades:
+    if(x>100):
+        sum_extra += (x-100)
+
+print('Sum extra:', sum_extra)
