@@ -1,0 +1,12 @@
+data = input().split()
+
+total = 0
+largest = None
+
+for num in data:
+    num = int(num)
+    total += num
+    if largest is None or num > largest:
+        largest = num
+
+print(int(round(total / len(data))), largest)
