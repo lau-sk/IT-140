@@ -1,0 +1,16 @@
+replacement_dict = {}
+s = input().split()
+i = 0
+while i<len(s):
+    replacement_dict[s[i]] = s[i+1]
+    i += 2
+sentence = input().split()
+result = ""
+for i in range(len(sentence)):
+    if sentence[i] in replacement_dict:
+        result += replacement_dict[sentence[i]]
+    else:
+        result += sentence[i]
+    result += " "
+result = result[:-1]
+print(result)
